@@ -1,0 +1,35 @@
+[include]
+	# for email address, full name, credentials etc.
+	path = config.local
+
+[push]
+	# "current" is simpler than "simple"
+	default = current
+
+[alias]
+	lg = log --graph --date=local
+	cb = checkout -b
+	# show branches sorted by last commit date, newest first
+	bd = for-each-ref --sort=-committerdate --format='%(committerdate:format:%Y-%m-%d) %(refname)' refs/heads
+
+[diff]
+	# shift hunk boundaries to make patches easier to read
+	indentHeuristic = true
+
+	# mnemonic prefixes point out what is being compared; they are
+	# usefull when doing diff --staged, add --patch etc.
+	mnemonicPrefix = true
+
+# make diffs with small changes more readable
+# /usr/share/doc/git*/contrib/diff-highlight
+[pager]
+	log = diff-highlight | less
+	show = diff-highlight | less
+	diff = diff-highlight | less
+[interactive]
+	diffFilter = diff-highlight
+
+# colors matching my $GREP_COLORS
+[color "grep"]
+	filename = 14
+	match = 214 bold
