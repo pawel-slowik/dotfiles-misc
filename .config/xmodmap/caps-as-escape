@@ -1,0 +1,3 @@
+! use caps lock as escape
+remove Lock = Caps_Lock
+keysym Caps_Lock = Escape
