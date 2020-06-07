@@ -31,6 +31,10 @@
 [interactive]
 	diffFilter = diff-highlight
 
+[status]
+	# show individual files in untracked directories
+	showUntrackedFiles = all
+
 # colors matching my $GREP_COLORS
 [color "grep"]
 	filename = 14
