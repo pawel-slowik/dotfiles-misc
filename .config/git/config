@@ -11,6 +11,8 @@
 	cb = checkout -b
 	# show branches sorted by last commit date, newest first
 	bd = for-each-ref --sort=-committerdate --format='%(committerdate:format:%Y-%m-%d) %(refname)' refs/heads
+	# usefull for reviewing diffs before staging
+	adiff = diff --no-prefix
 
 [diff]
 	# shift hunk boundaries to make patches easier to read
