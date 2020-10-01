@@ -7,3 +7,7 @@ Quick install:
 	mkdir -p ~/.config
 	ln -si ~/dotfiles/misc/.config/git ~/.config/git
 	ln -si ~/dotfiles/misc/.config/xmodmap ~/.config/xmodmap
+
+	sudo make -C /usr/share/doc/git*/contrib/diff-highlight
+	sudo cp /usr/share/doc/git*/contrib/diff-highlight/diff-highlight /usr/local/bin/
+	sudo chmod 755 /usr/local/bin/diff-highlight
