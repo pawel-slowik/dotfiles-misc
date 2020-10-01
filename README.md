@@ -11,3 +11,5 @@ Quick install:
 	sudo make -C /usr/share/doc/git*/contrib/diff-highlight
 	sudo cp /usr/share/doc/git*/contrib/diff-highlight/diff-highlight /usr/local/bin/
 	sudo chmod 755 /usr/local/bin/diff-highlight
+
+	chsh -s /bin/zsh
