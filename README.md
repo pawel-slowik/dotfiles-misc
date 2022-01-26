@@ -17,3 +17,8 @@ Quick install:
 	# Artix
 	sudo cp /usr/share/git/diff-highlight/diff-highlight /usr/local/bin/
 	sudo chmod 755 /usr/local/bin/diff-highlight
+
+	# macOS
+	brew install git
+	cd /usr/local/bin
+	ln -si ../*/git/*/share/git-core/contrib/diff-highlight/diff-highlight diff-highlight
