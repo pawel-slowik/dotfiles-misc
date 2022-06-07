@@ -6,6 +6,11 @@
 	# "current" is simpler than "simple"
 	default = current
 
+[pull]
+	# if the branches have diverged, skip the automatic merge / rebase,
+	# thus allowing for manual choice of a solution
+	ff = only
+
 [alias]
 	lg = log --graph --date=local
 	cb = checkout -b
