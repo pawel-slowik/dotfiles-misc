@@ -15,7 +15,7 @@
 	lg = log --graph --date=local
 	cb = checkout -b
 	# show branches sorted by last commit date, newest first
-	bd = for-each-ref --sort=-committerdate --format='%(committerdate:format:%Y-%m-%d) %(refname)' refs/heads
+	bd = for-each-ref --sort=-committerdate --format='%(committerdate:format:%Y-%m-%d) %(refname:short)' refs/heads
 	# usefull for reviewing diffs before staging
 	adiff = diff --no-prefix
 
