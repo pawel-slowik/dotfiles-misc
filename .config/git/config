@@ -2,6 +2,10 @@
 	# for email address, full name, credentials etc.
 	path = config.local
 
+[init]
+	# default when initializing a new repository
+	defaultBranch = master
+
 [push]
 	# "current" is simpler than "simple"
 	default = current
