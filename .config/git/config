@@ -29,6 +29,10 @@
 	# usefull when doing diff --staged, add --patch etc.
 	mnemonicPrefix = true
 
+[merge]
+	# show original / base version for conflicts
+	conflictstyle = diff3
+
 # make diffs with small changes more readable
 # /usr/share/doc/git*/contrib/diff-highlight
 [pager]
