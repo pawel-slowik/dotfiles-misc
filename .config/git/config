@@ -50,3 +50,10 @@
 [color "grep"]
 	filename = 14
 	match = 214 bold
+
+# colors matching my Zsh prompt plugin
+[color "status"]
+	added = 117
+	changed = 226
+	untracked = 214
+	unmerged = 9
