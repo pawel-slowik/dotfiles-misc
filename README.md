@@ -20,5 +20,5 @@ Quick install:
 
 	# macOS
 	brew install git
-	cd /usr/local/bin
+	cd "$HOMEBREW_PREFIX/bin"
 	ln -si ../*/git/*/share/git-core/contrib/diff-highlight/diff-highlight diff-highlight
