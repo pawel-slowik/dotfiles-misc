@@ -1,3 +1,15 @@
+pcm.!speakers {
+	type hw
+	card 1
+	device 0
+}
+
+pcm.!usbc {
+	type hw
+	card 0
+	device 3
+}
+
 pcm.!hdmi {
 	type hw
 	card 0
