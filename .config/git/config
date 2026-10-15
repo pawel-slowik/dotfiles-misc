@@ -4,7 +4,7 @@
 
 [init]
 	# default when initializing a new repository
-	defaultBranch = master
+	defaultBranch = main
 
 [push]
 	# "current" is simpler than "simple"
